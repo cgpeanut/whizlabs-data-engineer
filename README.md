@@ -18,6 +18,6 @@ Storage Options Features
 - Integrated with other products and services via a single access and API
 ```
 ```
-<img src="https://github.com/cgpeanut/whizlabs-data-engineer/blob/master/images/storage-aws.png" alt="IMAGE ALT TEXT HERE" width="450" height="250" /></a>
+<img src="https://github.com/cgpeanut/whizlabs-data-engineer/blob/master/images/storage-aws.png" alt="IMAGE ALT TEXT HERE" width="550" height="350" /></a>
 ```
 ```
