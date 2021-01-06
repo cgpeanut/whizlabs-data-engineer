@@ -43,10 +43,16 @@ Unstructed Data can be stored in:
 - Cloud SQL Overview:
 
     - Web service that allowsa you to create, configure, and use relational database that live in Google's cloud. 
-    - Used for:
-        Structured data, Typical web frameworks, Hosting MySQL & PostgreSQL
-        Common Workloads: 
-        SaaS, Blogs, CMS, BI, CRM, Geospatial applications: Examples: Phillips
+    - Used for: Structured data, Typical web frameworks, Hosting MySQL & PostgreSQL
+    - Common Workloads: SaaS, Blogs, CMS, BI, CRM, Geospatial applications: Examples: Phillips
+
+- Cloud Spanner Overview:
+
+    - Fully managed, mission-critical relational database service.
+    - Used for: Structured data, atomic, OTP, Strong consistency
+    - Common Workloads: Trading, Insurance, Telecom, Gaming, Logistics, E-Commerce
+
     
+
 
 
