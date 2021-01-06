@@ -32,12 +32,12 @@ Storage Options Types:
 - Structured Data can be stored in:
     - Cloud SQL, Cloud Spanner, Clouad Datastore, Cloud Bigtable, Clouad Bigquery, Persistent Disk.
 
-- Unstructured Data
+Unstructured Data
     - Unstructured datais a sequence of bytes which could be from a video, image or a document 
     - Data is stored as objects in buckets
     - You can't get any insights from structured data
     - Cloud Firestore save data in a document format with key-value pair. 
-- Unstructed Data can be stored in: 
+Unstructed Data can be stored in: 
     - Cloud Storage, Cloud Firestore
 
 - Cloud SQL Overview:
