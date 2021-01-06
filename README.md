@@ -74,5 +74,5 @@ Unstructed Data can be stored in:
     - Common Workloads: Mobile/web apps - Simple storag with global sync, query - Real-time mobile access.
 ```
 ```
-<img src="https://github.com/cgpeanut/whizlabs-data-engineer/blob/master/images/gcp-storage-flowchart.png" alt="IMAGE ALT TEXT HERE" width="750" height="250" /></a>
+<img src="https://github.com/cgpeanut/whizlabs-data-engineer/blob/master/images/gcp-storage-flowchart.png" alt="IMAGE ALT TEXT HERE" width="750" height="450" /></a>
 ```
