@@ -9,7 +9,9 @@ Storage Options Intro
 - Cloud BigQuery
 - Persistent Disk
 - Cloud Firestore
+
 Storage Options Features
+
 - High availability and reliability across regions and zones - riding on the Google Cloud Network
 - All the data is encrypted automatically
 - Store Exabytes of data in multiple storage classes
