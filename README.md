@@ -25,14 +25,14 @@ Storage Options Features:
 
 Storage Options Types:
 
-- Structed Data
+- Structured Data
     - If the data you want to store can be organized into a table structure with rows and columns, it's structured data.
     - Structured data comes in various sizes, and cost based on the requirements. 
     - Examples - Logs, user profiles, sensor data, financial data.
 - Structured Data can be stored in:
     - Cloud SQL, Cloud Spanner, Clouad Datastore, Cloud Bigtable, Clouad Bigquery, Persistent Disk.
 
-Unstructured Data
+- Unstructured Data
     - Unstructured datais a sequence of bytes which could be from a video, image or a document 
     - Data is stored as objects in buckets
     - You can't get any insights from structured data
@@ -43,14 +43,10 @@ Unstructed Data can be stored in:
 - Cloud SQL Overview:
 
     - Web service that allowsa you to create, configure, and use relational database that live in Google's cloud. 
-
-Used for:
-    - Structured data
-    - Typical web frameworks
-    - Hosting MySQL & PostgreSQL
-Common Workloads
-    - SaaS, Blogs, CMS, BI, CRM
-    - Geospatial applications: Examples: Phillips
+    - Used for:
+        Structured data, Typical web frameworks, Hosting MySQL & PostgreSQL
+        Common Workloads: 
+        SaaS, Blogs, CMS, BI, CRM, Geospatial applications: Examples: Phillips
     
 
 
