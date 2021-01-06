@@ -16,3 +16,8 @@ Storage Options Features
 - All the data is encrypted automatically
 - Store Exabytes of data in multiple storage classes
 - Integrated with other products and services via a single access and API
+```
+```
+<img src="https://github.com/cgpeanut/GCP-DevOps-SRE-Part1/blob/master/images/gcp-exams.png" alt="IMAGE ALT TEXT HERE" width="450" height="250" /></a>
+```
+```
