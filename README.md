@@ -40,18 +40,18 @@ Storage Options Types:
 Unstructed Data can be stored in: 
     - Cloud Storage, Cloud Firestore
 
-- Cloud SQL Overview:
-
-    - Web service that allowsa you to create, configure, and use relational database that live in Google's cloud. 
+- Cloud SQL Overview:-Web service that allowsa you to create, configure, and use relational database that live in Google's cloud. 
     - Used for: Structured data, Typical web frameworks, Hosting MySQL & PostgreSQL
     - Common Workloads: SaaS, Blogs, CMS, BI, CRM, Geospatial applications: Examples: Phillips
 
-- Cloud Spanner Overview:
-
-    - Fully managed, mission-critical relational database service.
+- Cloud Spanner Overview: Fully managed, mission-critical relational database service.
     - Used for: Structured data, atomic, OTP, Strong consistency
     - Common Workloads: Trading, Insurance, Telecom, Gaming, Logistics, E-Commerce
 
+- Cloud Storage Overview: Unstructured blob/bucket storage - scalable, fully managed, cost effective and highly available. 
+    - Used for: Images, pictures, videos - Objectsm blobs - Unstructured data
+    - Common workloads: Multimedia, - streaming, storage, - storage for custom data anaytics pipeline.
+    -
     
 
 
