@@ -51,8 +51,28 @@ Unstructed Data can be stored in:
 - Cloud Storage Overview: Unstructured blob/bucket storage - scalable, fully managed, cost effective and highly available. 
     - Used for: Images, pictures, videos - Objectsm blobs - Unstructured data
     - Common workloads: Multimedia, - streaming, storage, - storage for custom data anaytics pipeline.
-    -
-    
+    - Archive, backup and disaster recovery.
 
+- Cloud Datastore Overview: Fully managed, schemaless, non-relational datastore
+    - Used for: NoSQL solutiuon, Atomic, rioch queries, High scalability
+    - Common Workloads: Gaming apps - states, leaderboards - Catalogs - User/device profiles.
 
+- Cloud Bigtable Overview: Fast, fully managed, highly scalable NOSQL database service.
+    - Used for: 1 TB to hundreds of Petabytes - Low latency - Autoscaling via nodes.
+    - Common Workloads: Fintech, Adtech - Internet of Things - Machine learning applications. 
 
+- Cloud BigQuery Overview: Fully managed data analyis service that enables business to analyze Big Data.
+    - Used for: 1 TB to hundreds of Petabytes - Low Latency - ASutoscaling via nodes 
+    - Common Workloads: Fintech, Adtech - Internet of Things - Machine learning applications
+
+- Persustent Disk Overview: Durable High performance block storage for GCP. 
+    - Used for: Compute Engine - Kubernetes Engine - Snapshots 
+    - Common Workloads: Attached to VMs, Containers, Durable backups
+
+- Cloud Firestore Overview: NoSQL database for storing, syncing, and quering data for mobile and web apps
+    - Used for: Serverless third party authentication - NoSQL JSON database - Document Storage
+    - Common Workloads: Mobile/web apps - Simple storag with global sync, query - Real-time mobile access.
+```
+```
+<img src="https://github.com/cgpeanut/whizlabs-data-engineer/blob/master/images/gcp-storage-flowchart.png" alt="IMAGE ALT TEXT HERE" width="550" height="250" /></a>
+```
