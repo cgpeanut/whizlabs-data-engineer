@@ -120,7 +120,7 @@ Chapter 11: Pipelines 2: Deployment
     - The execution graph is tranlated into JSON format and a job is created
     - The job, execution graph, status, and log information can be seen in Cloud Dataflow Monitoring
 
-
+Chapter 12: Pipelines Demo: Dataflow PubSub
 Demo: file
 
 Dataflow with cloud Pub/Sub
@@ -155,7 +155,6 @@ cd java-docs-samples/pubsub/streaming-analytics
 
 
 
-Chapter 12: Pipelines Demo: Dataflow PubSub
 Chapter 13: Cloud Dataflow
 Chapter 14: Cloud Datproc
 Chapter 15: Data Loss Prevention
