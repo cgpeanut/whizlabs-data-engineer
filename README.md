@@ -76,3 +76,50 @@ Unstructed Data can be stored in:
 ```
 <img src="https://github.com/cgpeanut/whizlabs-data-engineer/blob/master/images/gcp-storage-flowchart.png" alt="IMAGE ALT TEXT HERE" width="750" height="450" /></a>
 ```
+
+# Data Engineering Basics:
+Chapter 4: Storage Options:
+Chapter 5: Cloud SQL: Web service that allowsa you to create, configure, and use relational database that live in Google's cloud.
+
+- Features: 
+
+    - Fully managed community editions of MySQL and PostreSQL - 2 generations
+    - MySQL and PostredSQL instances can scale up to 64 CPUs, 416 GB RAM and 30 TB data storage
+    - Integrated tightly with other producst and services in GCP
+    - Instances are accessible from anywhere, available regionally in US, EU and Asia
+    - Secure external connections with the Cloud SQL Proxy or with the SSL/TLS protocol
+
+Chapter 6: Cloud Spanner:
+Chapter 7: Cloud Bigtable 1
+Chapter 8: Cloud Bigtable 2
+Chapter 9: Clouad Datastore
+
+# Data Processing
+Chapter 10: Pipelines 1: Design & Development 
+Chapter 11: Pipelines 2: Deployment 
+Chapter 12: Pipelines Demo: Dataflow PubSub
+Chapter 13: Cloud Dataflow
+Chapter 14: Cloud Datproc
+Chapter 15: Data Loss Prevention
+Chapter 16: Cloud DataPrep 1
+Chapter 17: Cloud Dataprep 2
+Chapter 18: Cloud Dataprep Demo
+Chapter 19: Clouad Data Lifecycle Management 
+Chapter 20: Clouad Composer
+Chapter 21: Cloud Composer Demo: Dataproc Airflow Hadoop
+
+# Big Data
+Chapter 22: Clouad BigQuery and DataStudio
+Chapter 23: Data Warehous Migration
+Chapter 24: Hybrid Multi Cloud
+
+# Operations and management 
+Chapter 25: Compliance
+Chapter 26: Clouad IAM
+Chapter 27: Encryption and key management 
+Chapter 28: Cloud Datalab
+
+# AI ML
+Chapter 29: Clouad Apeeh API, Clouad Vision API, Translate API
+Chapter 30: A.I Platforn (demo training)
+Chapter 31: Cloud AutopML (demo training)
