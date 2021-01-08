@@ -75,9 +75,13 @@ Unstructed Data can be stored in:
 
 ```
 ```
-<img src="https://github.com/cgpeanut/whizlabs-data-engineer/blob/master/images/gcp-storage-flowchart.png" alt="IMAGE ALT TEXT HERE" width="750" height="450" /></a>
-```
 
+<img src="https://github.com/cgpeanut/whizlabs-data-engineer/blob/master/images/gcp-storage-flowchart.png" alt="IMAGE ALT TEXT HERE" width="750" height="450" /></a>
+
+```
+```
+```
+```
 # Data Engineering Basics:
 Chapter 4: Storage Options:
 Chapter 5: Cloud SQL: Web service that allowsa you to create, configure, and use relational database that live in Google's cloud.
@@ -97,7 +101,60 @@ Chapter 9: Clouad Datastore
 
 # Data Processing
 Chapter 10: Pipelines 1: Design & Development 
+- what is a pipeline 
+- designing an Apache Beam pipeline
+- 1. Structure 2. Tranforms 3. Input & Output methods
+
 Chapter 11: Pipelines 2: Deployment 
+- Data Pipelines II: Introduction
+- Deploying a pipeline with Cloud Dataflow
+- Fully managed service with VMs, Storage, autoscaling, monitoring and other GCP features.
+- Disstributed parallel processing
+- Optimization with execution rights
+- Dynamic work rebalancing and auto tuning
+
+- Data Pipelines II: Data Lifecycle
+    - Data floe creates an execution graph
+    - This inscludes tranforms and functions
+    - Dataflow checks for errors and any illegal operations
+    - The execution graph is tranlated into JSON format and a job is created
+    - The job, execution graph, status, and log information can be seen in Cloud Dataflow Monitoring
+
+
+Demo: file
+
+Dataflow with cloud Pub/Sub
+
+Objectives
+
+•	Read Pub/Sub messages.
+•	Window (or group) messages by timestamp in 2-minute intervals.
+•	Save the messages in each window as files in Cloud Storage.
+
+Enable the following APIs
+
+Compute Engine, Stackdriver, Cloud Storage, Cloud Storage JSON, Pub/Sub, Cloud Scheduler, Resource Manager, and App Engine.
+
+Steps
+1.	gsutil mb gs://d-bucket-e-100
+2.	gcloud pubsub topics create cron-topic
+3.	gcloud scheduler jobs create pubsub publisher-job --schedule="* * * * *" \
+ --topic=cron-topic --message-body="Hello!"
+4.	gcloud scheduler jobs run publisher-job
+5.	git clone https://github.com/GoogleCloudPlatform/java-docs-samples.git
+cd java-docs-samples/pubsub/streaming-analytics
+6.	mvn compile exec:java \
+  -Dexec.mainClass=com.examples.pubsub.streaming.PubSubToGCS \
+  -Dexec.cleanupDaemonThreads=false \
+  -Dexec.args=" \
+    --project=sharp-respect-258808 \
+    --inputTopic=projects/sharp-respect-258808/topics/cron-topic \
+    --output=gs://d-bucket-e-100/samples/output \
+    --runner=DataflowRunner \
+    --windowSize=2"
+
+
+
 Chapter 12: Pipelines Demo: Dataflow PubSub
 Chapter 13: Cloud Dataflow
 Chapter 14: Cloud Datproc
