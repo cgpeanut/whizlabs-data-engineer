@@ -76,8 +76,10 @@ Unstructed Data can be stored in:
 ```
 <img src="https://github.com/cgpeanut/whizlabs-data-engineer/blob/master/images/gcp-storage-flowchart.png" alt="IMAGE ALT TEXT HERE" width="750" height="450" /></a>
 ```
+```
+```
 
-# Data Engineering Basics:
+## Data Engineering Basics:
 Chapter 4: Storage Options:
 Chapter 5: Cloud SQL: Web service that allowsa you to create, configure, and use relational database that live in Google's cloud.
 
