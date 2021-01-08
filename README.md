@@ -1,5 +1,5 @@
 # whizlabs Google Certified Professional Data Engineer  
-# Chapter 3: Data enineering Basics
+# Chapter 3: Data engineering Basics
 
 Storage Options Intro:
 - Cloud Storage
@@ -33,7 +33,7 @@ Storage Options Types:
     - Cloud SQL, Cloud Spanner, Clouad Datastore, Cloud Bigtable, Clouad Bigquery, Persistent Disk.
 
 - Unstructured Data
-    - Unstructured datais a sequence of bytes which could be from a video, image or a document 
+    - Unstructured data is a sequence of bytes which could be from a video, image or a document 
     - Data is stored as objects in buckets
     - You can't get any insights from structured data
     - Cloud Firestore save data in a document format with key-value pair. 
@@ -72,14 +72,13 @@ Unstructed Data can be stored in:
 - Cloud Firestore Overview: NoSQL database for storing, syncing, and quering data for mobile and web apps
     - Used for: Serverless third party authentication - NoSQL JSON database - Document Storage
     - Common Workloads: Mobile/web apps - Simple storag with global sync, query - Real-time mobile access.
+
 ```
 ```
 <img src="https://github.com/cgpeanut/whizlabs-data-engineer/blob/master/images/gcp-storage-flowchart.png" alt="IMAGE ALT TEXT HERE" width="750" height="450" /></a>
 ```
-```
-```
 
-## Data Engineering Basics:
+# Data Engineering Basics:
 Chapter 4: Storage Options:
 Chapter 5: Cloud SQL: Web service that allowsa you to create, configure, and use relational database that live in Google's cloud.
 
